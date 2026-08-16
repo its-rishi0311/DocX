@@ -1,0 +1,8 @@
+# Web Framework
+flask==3.0.2
+
+# Database Drivers
+psycopg2-binary==2.9.9
+
+# Utility Libraries for file handling
+python-docx==1.1.0

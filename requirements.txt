@@ -6,4 +6,5 @@ psycopg2-binary==2.9.9
 
 # Utility Libraries for file handling
 python-docx==1.1.0
-gunicorn DocX.wsgi:application --bind 0.0.0.0:$PORT --workers 3
+
+gunicorn

@@ -1,7 +1,14 @@
 from docx import Document
 
-# Load an existing .docx file
-doc = Document('output.docx')
+# Create a new document in memory
+doc = Document()
+
+# Add sample content to the document
+doc.add_heading('DocX Project', level=0)
+doc.add_paragraph('Document generated successfully.')
+
+# Save the newly created document
+doc.save('output.docx')
 
 # Read and print paragraphs
 print("--- Paragraphs ---")
